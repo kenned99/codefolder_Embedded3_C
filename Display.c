@@ -15,6 +15,8 @@
 #include <net/if.h>
 #include <arpa/inet.h>
 
+
+//made by udviklings-kenned
 #define CONFIG_REG      0x01
 #define TUPPER_REG      0x02
 #define TLOWER_REG      0x03
@@ -81,7 +83,6 @@ for (int i = 0; ;i++) {
 
 i2c_smbus_write_byte_data(file, 0x40, ip_adress[i]);
 }
-
 
 // Read temperature
 //reg32 = i2c_smbus_read_word_data(file, TA_REG);
