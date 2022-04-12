@@ -16,7 +16,7 @@
 #include <arpa/inet.h>
 
 
-//made by udviklings-kenned
+//made by udviklings-emil 
 #define CONFIG_REG      0x01
 #define TUPPER_REG      0x02
 #define TLOWER_REG      0x03
